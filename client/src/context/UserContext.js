@@ -6,7 +6,7 @@ export const UserProvider = (props) => {
         token: undefined
     });
     return (
-        <UserContext.Provider value={[userData, setUserData]}>
+        <UserContext.Provider value={[userData,setUserData]}>
             {props.children}
         </UserContext.Provider>
     )
